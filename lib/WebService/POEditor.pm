@@ -7,7 +7,7 @@ with 'Role::REST::Client';
 use MooseX::Attribute::ENV;
 use WebService::POEditor::Response;
 
-use version; our $VERSION = version->new('v1.0.0');
+use version; our $VERSION = version->new('v1.1.0');
 use namespace::clean;
 
 
@@ -133,7 +133,7 @@ WebService::POEditor - POEditor.com API wrapper
 
 =head1 VERSION
 
-version v1.0.0
+version v1.1.0
 
 =head1 SYNOPSIS
 
@@ -153,7 +153,7 @@ version v1.0.0
 
 =head2 api_token
 
-Set API token L<https://poeditor.com/account/api|obtained from POEditor.com>.
+Set API token L<obtained from POEditor.com|https://poeditor.com/account/api>.
 
 Alternatively, API token can be set via environment variable C<POEDITOR_API_TOKEN>.
 

@@ -160,7 +160,7 @@ WebService::POEditor::Response
 
 =head1 VERSION
 
-version v1.0.0
+version v1.1.0
 
 =head2 res
 
